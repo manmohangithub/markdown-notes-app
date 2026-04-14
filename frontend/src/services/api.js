@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://inventory-fullstack-app-production.up.railway.app/"
+  baseURL: "https://markdown-notes-app-production-187a.up.railway.app/notes"
 });
 
 export const fetchNotes = (q = "") =>
